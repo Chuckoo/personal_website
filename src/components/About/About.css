@@ -1,0 +1,74 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  text-align: center;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  height: 80vh;
+}
+
+.about {
+  text-align: left;
+}
+
+.about__name {
+  color: var(--clr-primary);
+}
+
+.about__role {
+  margin-top: 0.1em;
+  font-weight: bolder;
+  font-style: italic;
+  margin-left: 0.5em;
+}
+
+.about__desc {
+  font-size: 1rem;
+  max-width: 600px;
+  margin: 0 auto; /* Center the description text */
+}
+
+.about__desc {
+  margin-top: 2.4em;
+}
+.about__contact {
+  margin-top: 2.4em;
+  display: flex;
+  justify-content: center;
+}
+
+.about .link--icon {
+  margin-right: 0.8em;
+}
+
+.about .btn--outline {
+  margin-right: 1em;
+  border-radius: 12px;
+}
+
+.image img {
+  max-width: 40%;
+  border-radius: 50%;
+  height: auto;
+  object-fit: cover;
+}
+
+.media_image img {
+  width: 0%;
+  height: 0%;
+  visibility: hidden;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column; /* Stack text above the image */
+    height: auto; /* Adjust height to content */
+  }
+
+  .text {
+    margin-right: 0; /* Remove the margin between text and image */
+    margin-bottom: 20px; /* Add space below the text */
+  }
+}
