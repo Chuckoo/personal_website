@@ -2,6 +2,7 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import MyResume from "../../Vivek_Venkateshprasad_Resume.pdf";
 import { about } from "../../portfolio";
+import ImgofVivek from "../../assets/vivek.jpg";
 import "./About.css";
 
 const About = () => {
@@ -59,7 +60,7 @@ const About = () => {
           </div>
         </div>
         <div className="image">
-          <img src="..\src\assets\vivek.jpg"></img>
+          <img src={ImgofVivek}></img>
         </div>
       </div>
     </>

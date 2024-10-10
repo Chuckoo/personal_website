@@ -1,0 +1,10 @@
+.projects__page {
+  display: flex;
+  flex-direction: column;
+}
+
+.input__box {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}

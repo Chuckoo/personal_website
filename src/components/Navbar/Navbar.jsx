@@ -42,7 +42,7 @@ const Navbar = () => {
         {contact.email ? (
           <li className="nav__list-item">
             <a
-              href="/contact"
+              href="#contact"
               onClick={toggleNavList}
               className="link link--nav"
             >

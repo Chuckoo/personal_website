@@ -1,9 +1,16 @@
 .project {
-  padding: 2em;
+  padding: 1em;
   margin: 0 auto;
   text-align: center;
   box-shadow: var(--shadow);
   transition: transform 0.2s linear;
+}
+
+.project__divider {
+  border: none;
+  border-top: 2px solid var(--clr-fg);
+  width: 80%;
+  margin: 1em auto;
 }
 
 .project:hover {
@@ -30,4 +37,21 @@
 
 .project .link--icon {
   margin-left: 0.5em;
+}
+
+.stack__btn {
+  display: block;
+  cursor: pointer;
+  padding: 0.2em 0.5em;
+  font-weight: 500;
+  transition: transform 0.2s ease-in-out;
+  text-transform: initial;
+  background-color: var(--clr-bg-alt);
+  box-shadow: #00000026 0px 3px 3px 0px;
+  border: 0;
+  border-radius: 10%;
+}
+
+.stack__btn:hover {
+  transform: translateY(-4px);
 }
