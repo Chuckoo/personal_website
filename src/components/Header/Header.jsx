@@ -9,7 +9,7 @@ const Header = () => {
     <header className="header center">
       <h3>
         {homepage ? (
-          <a href="/" className="link">
+          <a href="/personal_website" className="link">
             ವಿv.
           </a>
         ) : (
