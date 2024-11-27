@@ -38,7 +38,6 @@ const Navbar = () => {
             </a>
           </li>
         ) : null}
-
         {contact.email ? (
           <li className="nav__list-item">
             <a

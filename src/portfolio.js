@@ -1,14 +1,18 @@
 const header = {
   title: 'ವಿv.',
-  homepage: '/personal_website'
+  homepage: '/portfolio'
 }
 
 const about = {
   // all the properties are optional - can be left empty or deleted
-  name: 'Vivek V',
+  name: 'Vivek',
   role: 'Software Engineer',
   description:
-    'Welcome to my website. It is currently under active development.You can download my resume below to get up-to-date information about me. Be sure to drop me an email on suggestions, ideas and job opportunities. I am graduating with a Master\'s degree this Fall from University of California, Riverside and would love to work with you and your company.',
+    "I'm problem-solving wizard who thrives on transforming big ideas into even bigger realities ! \
+     From secure cloud infrastructure to AI-driven solutions, I love solving complex problems with elegant code. \
+     Whether I'm optimizing backend systems or bringing ML models to life, I bring a balance of technical expertise, \
+     curiosity, and innovation to every project. I'd love to collaborate with like-minded teams and am currently on the \
+     lookout for exciting opportunities to make an impact ! 🚀",
     resume:"./Vivek_Venkateshprasad_Resume.pdf",
   social: {
     linkedin: 'https://www.linkedin.com/in/vi-vek/',

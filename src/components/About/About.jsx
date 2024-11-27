@@ -14,16 +14,16 @@ const About = () => {
         <div className="about text">
           {name && (
             <h1>
-              Hi, I am <span className="about__name">{name}.</span>
+              Hi, I am <span className="about__name">{name} 👋</span>
             </h1>
           )}
 
-          {role && (
-            <h5 className="about__role">
-              {role}, Expert <s>googler</s> Coder, Coffee Connoisseur{" "}
-            </h5>
-          )}
           <p className="about__desc">{description}</p>
+          <p className="about__desc">
+            Feel free to download my resume below for the latest updates about
+            me. Don't hesitate to drop me an email if you have any suggestions,
+            ideas, or just want to connect !
+          </p>
 
           <div className="about__contact center">
             {resume && (

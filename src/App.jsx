@@ -33,6 +33,7 @@ const App = () => {
       <MainPage />
       <Routes>
         <Route path="/" element={<MainPage />} />
+        <Route path="/contact" element={<ContactPage />} />
       </Routes>
       <ScrollToTop />
       <Footer />
